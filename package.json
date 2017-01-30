@@ -1,13 +1,17 @@
 {
   "name": "zeppelin-echo-spell",
   "description": "Zeppelin Echo Spell (example)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index",
   "author": "",
   "license": "Apache-2.0",
-  "icon" : "<i class='fa fa-repeat'></i>",
-  "type" : "SPELL",
   "dependencies": {
     "zeppelin-spell": "*"
+  },
+  "spell": {
+    "type" : "SPELL",
+    "icon" : "<i class='fa fa-repeat'></i>",
+    "magic": "%echo",
+    "usage": "%echo <TEXT>"
   }
 }
