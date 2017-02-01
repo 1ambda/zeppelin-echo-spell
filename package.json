@@ -1,7 +1,7 @@
 {
   "name": "zeppelin-echo-spell",
   "description": "Zeppelin Echo Spell (example)",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index",
   "author": "",
   "license": "Apache-2.0",
@@ -10,6 +10,13 @@
   },
   "helium": {
     "icon" : "<i class='fa fa-repeat'></i>",
+    "config": {
+      "echo": {
+        "type": "number",
+        "description": "How many times to repeat",
+        "defaultValue": 1
+      }
+    },
     "spell": {
       "magic": "%echo",
       "usage": "%echo <TEXT>"
