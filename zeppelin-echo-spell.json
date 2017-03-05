@@ -1,0 +1,15 @@
+{
+  "type": "SPELL",
+  "name": "zeppelin-echo-spell",
+  "description": "Repeat paragraph text",
+  "artifact": "/Users/1ambda/github/1ambda/zeppelin-echo-spell",
+  "config": {
+    "repeat": {
+      "type": "number",
+      "description": "How many times to repeat",
+      "defaultValue": 1
+    }
+  },
+  "icon": "<i class='fa fa-repeat'></i>",
+  "license": "MIT"
+}

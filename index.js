@@ -16,17 +16,29 @@
  */
 
 import {
-    SpellBase,
-    SpellResult,
-    DefaultDisplayType,
-} from 'zeppelin-spell';
+  SpellBase,
+  SpellResult,
+  DefaultDisplayType,
+} from 'zeppelin-spell'
 
 export default class EchoSpell extends SpellBase {
-    constructor() {
-        super("%echo");
+  constructor() {
+    super("%echo")
+  }
+
+  interpret(paragraphText, config) {
+    let repeat = 1
+
+    try {
+      repeat = parseInt(config.repeat)
+    } catch(error) { /** use default value */ }
+
+    let text = ''
+
+    for (let i = 0; i < repeat; i++) {
+      text += `${paragraphText}\n`
     }
 
-    interpret(paragraphText) {
-        return new SpellResult(paragraphText);
-    }
+    return new SpellResult(text)
+  }
 }
