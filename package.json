@@ -1,10 +1,20 @@
 {
   "name": "zeppelin-echo-spell",
   "description": "Zeppelin Echo Spell (example)",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index",
-  "author": "",
+  "author": "1ambda",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1ambda/zeppelin-echo-spell.git"
+  },
+  "bugs": { "url": "https://github.com/1ambda/zeppelin-echo-spell/issues" },
+  "homepage": "https://github.com/1ambda/zeppelin-echo-spell#readme",
+  "dependencies": {
+    "papaparse": "^4.1.4",
+    "zeppelin-spell": "*"
+  },
   "dependencies": {
     "zeppelin-spell": "*"
   },
@@ -15,6 +25,11 @@
         "type": "number",
         "description": "How many times to repeat",
         "defaultValue": 1
+      },
+      "delay": {
+        "type": "number",
+        "description": "Time to wait",
+        "defaultValue": 1000
       }
     },
     "spell": {

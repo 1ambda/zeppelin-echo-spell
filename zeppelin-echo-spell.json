@@ -8,6 +8,11 @@
       "type": "number",
       "description": "How many times to repeat",
       "defaultValue": 1
+    },
+    "delay": {
+      "type": "number",
+      "description": "Time to wait",
+      "defaultValue": 1000
     }
   },
   "spell": {
