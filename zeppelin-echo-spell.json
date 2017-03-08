@@ -20,5 +20,5 @@
     "usage": "%echo <TEXT>"
   },
   "icon": "<i class='fa fa-repeat'></i>",
-  "license": "MIT"
+  "license": "Apache-2.0"
 }

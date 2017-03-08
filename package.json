@@ -12,10 +12,6 @@
   "bugs": { "url": "https://github.com/1ambda/zeppelin-echo-spell/issues" },
   "homepage": "https://github.com/1ambda/zeppelin-echo-spell#readme",
   "dependencies": {
-    "papaparse": "^4.1.4",
-    "zeppelin-spell": "*"
-  },
-  "dependencies": {
     "zeppelin-spell": "*"
   },
   "helium": {
