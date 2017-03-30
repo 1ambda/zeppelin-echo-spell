@@ -1,7 +1,7 @@
 {
   "name": "zeppelin-echo-spell",
   "description": "Zeppelin Echo Spell (example)",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index",
   "author": "1ambda",
   "license": "Apache-2.0",
